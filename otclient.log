@@ -1,0 +1,222 @@
+== application started at Jul 25 2017 12:44:33
+OTClient 0.6.2 rev 0 (devel) built on Aug 24 2013 for arch x86
+ERROR: Unable to load texture '/images/ui/button_topgame': unable to open file '/images/ui/button_topgame.png': O sistema não pode encontrar o caminho especificado.
+ERROR: Unable to find module 'game_dexfish' required by 'game_interface'
+ERROR: Unable to find module 'game_pokebag' required by 'game_interface'
+WARNING: 
+stack traceback:
+	[C]: in function 'createFragmentShader'
+	/game_effect/shaders.lua:28: in function 'init'
+	/game_effect/shaders.otmod:12:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:49: in main chunk
+at:
+	[C++]: ShaderProgram::link
+ERROR: unable to link shader 'Bloom' from file '/shaders/bloom.frag'
+WARNING: 
+stack traceback:
+	[C]: in function 'createFragmentShader'
+	/game_effect/shaders.lua:28: in function 'init'
+	/game_effect/shaders.otmod:12:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:49: in main chunk
+at:
+	[C++]: ShaderProgram::link
+ERROR: unable to link shader 'Pulse' from file '/shaders/pulse.frag'
+WARNING: 
+stack traceback:
+	[C]: in function 'createFragmentShader'
+	/game_effect/shaders.lua:28: in function 'init'
+	/game_effect/shaders.otmod:12:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:49: in main chunk
+at:
+	[C++]: ShaderProgram::link
+ERROR: unable to link shader 'Heat' from file '/shaders/heat.frag'
+WARNING: 
+stack traceback:
+	[C]: in function 'createFragmentShader'
+	/game_effect/shaders.lua:28: in function 'init'
+	/game_effect/shaders.otmod:12:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:49: in main chunk
+at:
+	[C++]: ShaderProgram::link
+ERROR: unable to link shader 'Noise' from file '/shaders/noise.frag'
+ERROR: Unable to load texture '/images/ui/panel_flat00': unable to open file '/images/ui/panel_flat00.png': O sistema não pode encontrar o caminho especificado.
+ERROR: lua function callback failed: LUA ERROR:
+/corelib/ui/uitextedit.lua:5: attempt to index a nil value
+stack traceback:
+	[C]: ?
+	/corelib/ui/uitextedit.lua:5: in function </corelib/ui/uitextedit.lua:4>
+ERROR: lua function callback failed: LUA ERROR:
+/game_shop/Shop.lua:54: attempt to call global 'setupGraphicsEngines' (a nil value)
+stack traceback:
+	[C]: in function 'setupGraphicsEngines'
+	/game_shop/Shop.lua:54: in function 'setup'
+	/game_shop/Shop.lua:42: in function </game_shop/Shop.lua:42>
+Exiting application..
+ERROR: Unable to unload module 'Som': LUA ERROR:
+/game_som/som.otmod:13:[@onUnload]:1: attempt to call global 'terminate' (a nil value)
+stack traceback:
+	[C]: in function 'terminate'
+	/game_som/som.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Shop': LUA ERROR:
+/game_shop/Shop.lua:49: attempt to index upvalue 'optionsButton' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_shop/Shop.lua:49: in function 'terminate'
+	/game_shop/Shop.otmod:13:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'moduleManagerWindow' two times
+== application started at Jul 25 2017 12:45:41
+OTClient 0.6.2 rev 0 (devel) built on Aug 24 2013 for arch x86
+ERROR: Unable to load texture '/images/ui/button_topgame': unable to open file '/images/ui/button_topgame.png': O sistema não pode encontrar o caminho especificado.
+ERROR: Unable to find module 'game_dexfish' required by 'game_interface'
+ERROR: Unable to find module 'game_pokebag' required by 'game_interface'
+WARNING: 
+stack traceback:
+	[C]: in function 'createFragmentShader'
+	/game_effect/shaders.lua:28: in function 'init'
+	/game_effect/shaders.otmod:12:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:49: in main chunk
+at:
+	[C++]: ShaderProgram::link
+ERROR: unable to link shader 'Bloom' from file '/shaders/bloom.frag'
+WARNING: 
+stack traceback:
+	[C]: in function 'createFragmentShader'
+	/game_effect/shaders.lua:28: in function 'init'
+	/game_effect/shaders.otmod:12:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:49: in main chunk
+at:
+	[C++]: ShaderProgram::link
+ERROR: unable to link shader 'Pulse' from file '/shaders/pulse.frag'
+WARNING: 
+stack traceback:
+	[C]: in function 'createFragmentShader'
+	/game_effect/shaders.lua:28: in function 'init'
+	/game_effect/shaders.otmod:12:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:49: in main chunk
+at:
+	[C++]: ShaderProgram::link
+ERROR: unable to link shader 'Heat' from file '/shaders/heat.frag'
+WARNING: 
+stack traceback:
+	[C]: in function 'createFragmentShader'
+	/game_effect/shaders.lua:28: in function 'init'
+	/game_effect/shaders.otmod:12:[@onLoad]:1: in main chunk
+	[C]: in function 'autoLoadModules'
+	/init.lua:49: in main chunk
+at:
+	[C++]: ShaderProgram::link
+ERROR: unable to link shader 'Noise' from file '/shaders/noise.frag'
+ERROR: Unable to load texture '/images/ui/panel_flat00': unable to open file '/images/ui/panel_flat00.png': O sistema não pode encontrar o caminho especificado.
+ERROR: lua function callback failed: LUA ERROR:
+/corelib/ui/uitextedit.lua:5: attempt to index a nil value
+stack traceback:
+	[C]: ?
+	/corelib/ui/uitextedit.lua:5: in function </corelib/ui/uitextedit.lua:4>
+ERROR: lua function callback failed: LUA ERROR:
+/game_shop/Shop.lua:54: attempt to call global 'setupGraphicsEngines' (a nil value)
+stack traceback:
+	[C]: in function 'setupGraphicsEngines'
+	/game_shop/Shop.lua:54: in function 'setup'
+	/game_shop/Shop.lua:42: in function </game_shop/Shop.lua:42>
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+== application started at Jul 29 2017 14:59:15
+OTClient 0.6.2 rev 0 (devel) built on Aug 24 2013 for arch x86
+ERROR: Unable to load texture '/images/ui/button_topgame': unable to open file '/images/ui/button_topgame.png': O sistema não pode encontrar o caminho especificado.
+ERROR: Unable to find module 'game_dexfish' required by 'game_interface'
+ERROR: Unable to find module 'game_pokebag' required by 'game_interface'
+ERROR: Unable to load texture '/images/ui/panel_flat00': unable to open file '/images/ui/panel_flat00.png': O sistema não pode encontrar o caminho especificado.
+ERROR: lua function callback failed: LUA ERROR:
+/corelib/ui/uitextedit.lua:5: attempt to index a nil value
+stack traceback:
+	[C]: ?
+	/corelib/ui/uitextedit.lua:5: in function </corelib/ui/uitextedit.lua:4>
+ERROR: lua function callback failed: LUA ERROR:
+/game_shop/Shop.lua:54: attempt to call global 'setupGraphicsEngines' (a nil value)
+stack traceback:
+	[C]: in function 'setupGraphicsEngines'
+	/game_shop/Shop.lua:54: in function 'setup'
+	/game_shop/Shop.lua:42: in function </game_shop/Shop.lua:42>
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+Exiting application..
+ERROR: Unable to unload module 'Som': LUA ERROR:
+/game_som/som.otmod:13:[@onUnload]:1: attempt to call global 'terminate' (a nil value)
+stack traceback:
+	[C]: in function 'terminate'
+	/game_som/som.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Shop': LUA ERROR:
+/game_shop/Shop.lua:49: attempt to index upvalue 'optionsButton' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_shop/Shop.lua:49: in function 'terminate'
+	/game_shop/Shop.otmod:13:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'moduleManagerWindow' two times
+== application started at Jul 29 2017 16:36:46
+OTClient 0.6.2 rev 0 (devel) built on Aug 24 2013 for arch x86
+ERROR: Unable to load texture '/images/ui/button_topgame': unable to open file '/images/ui/button_topgame.png': O sistema não pode encontrar o caminho especificado.
+ERROR: Unable to find module 'game_dexfish' required by 'game_interface'
+ERROR: Unable to find module 'game_pokebag' required by 'game_interface'
+ERROR: Unable to load texture '/images/ui/panel_flat00': unable to open file '/images/ui/panel_flat00.png': O sistema não pode encontrar o caminho especificado.
+ERROR: lua function callback failed: LUA ERROR:
+/corelib/ui/uitextedit.lua:5: attempt to index a nil value
+stack traceback:
+	[C]: ?
+	/corelib/ui/uitextedit.lua:5: in function </corelib/ui/uitextedit.lua:4>
+ERROR: lua function callback failed: LUA ERROR:
+/game_shop/Shop.lua:54: attempt to call global 'setupGraphicsEngines' (a nil value)
+stack traceback:
+	[C]: in function 'setupGraphicsEngines'
+	/game_shop/Shop.lua:54: in function 'setup'
+	/game_shop/Shop.lua:42: in function </game_shop/Shop.lua:42>
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+Exiting application..
+ERROR: Unable to unload module 'Som': LUA ERROR:
+/game_som/som.otmod:13:[@onUnload]:1: attempt to call global 'terminate' (a nil value)
+stack traceback:
+	[C]: in function 'terminate'
+	/game_som/som.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Shop': LUA ERROR:
+/game_shop/Shop.lua:49: attempt to index upvalue 'optionsButton' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_shop/Shop.lua:49: in function 'terminate'
+	/game_shop/Shop.otmod:13:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'moduleManagerWindow' two times
+== application started at Jul 29 2017 17:33:49
+OTClient 0.6.2 rev 0 (devel) built on May 19 2013 for arch x86
+ERROR: Unable to load texture '/images/ui/button_topgame': unable to open file '/images/ui/button_topgame.png': O sistema não pode encontrar o caminho especificado.
+ERROR: Unable to find module 'game_dexfish' required by 'game_interface'
+ERROR: Unable to find module 'game_pokebag' required by 'game_interface'
+ERROR: Unable to load texture '/images/ui/panel_flat00': unable to open file '/images/ui/panel_flat00.png': O sistema não pode encontrar o caminho especificado.
+ERROR: lua function callback failed: LUA ERROR:
+/corelib/ui/uitextedit.lua:5: attempt to index a nil value
+stack traceback:
+	[C]: ?
+	/corelib/ui/uitextedit.lua:5: in function </corelib/ui/uitextedit.lua:4>
+ERROR: lua function callback failed: LUA ERROR:
+/game_shop/Shop.lua:54: attempt to call global 'setupGraphicsEngines' (a nil value)
+stack traceback:
+	[C]: in function 'setupGraphicsEngines'
+	/game_shop/Shop.lua:54: in function 'setup'
+	/game_shop/Shop.lua:42: in function </game_shop/Shop.lua:42>
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+Exiting application..
+ERROR: Unable to unload module 'Som': LUA ERROR:
+/game_som/som.otmod:13:[@onUnload]:1: attempt to call global 'terminate' (a nil value)
+stack traceback:
+	[C]: in function 'terminate'
+	/game_som/som.otmod:13:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'Shop': LUA ERROR:
+/game_shop/Shop.lua:49: attempt to index upvalue 'optionsButton' (a nil value)
+stack traceback:
+	[C]: ?
+	/game_shop/Shop.lua:49: in function 'terminate'
+	/game_shop/Shop.otmod:13:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'moduleManagerWindow' two times
